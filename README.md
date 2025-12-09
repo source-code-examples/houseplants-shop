@@ -63,7 +63,7 @@ This project was built using the following technologies:
 
 ---
 
-## 🧭 Quick start
+## Quick start
 
 1. **Clone repository:**
    ```bash
@@ -86,28 +86,29 @@ This project was built using the following technologies:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
+```bash
 houseplants-shop/
 ├── public/
-│ └── images/ # Background image for landing page
+│   └── images/              # Background image for landing page
 ├── src/
-│ ├── assets/ # Static assets, plant thumbnails
-│ ├── components/
-│ │ └── Header
-│ ├── data/
-│ │ └── plantsData.js
-│ ├── pages/
-│ │ ├── LandingPage
-│ │ ├── ProductListingPage
-│ │ └── CartPage
-│ ├── redux/
-│ │ ├── store.js
-│ │ └── cartSlice.js
-│ ├── App.jsx
-│ ├── main.jsx
-│ ├── index.css # Global styles
-│ └── index.html
+│   ├── assets/              # Static assets, plant thumbnails
+│   ├── components/
+│   │   └── Header
+│   ├── data/
+│   │   └── plantsData.js
+│   ├── pages/
+│   │   ├── LandingPage
+│   │   ├── ProductListingPage
+│   │   └── CartPage
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── cartSlice.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css            # Global styles
+│   └── index.html
 ├── package.json
 └── README.md
 
@@ -134,3 +135,13 @@ The application is deployed and accessible at:
 ### Cart Page
 
 <img src="docs/screenshots/cart-page.png" alt="Cart Page" width="600">
+
+---
+
+## ✨ Author
+
+Developed as part of the IBM Front-End React Course final project.
+GitHub Repository: [houseplants-shop](https://github.com/source-code-examples/houseplants-shop)
+
+
+```
