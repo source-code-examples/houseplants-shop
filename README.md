@@ -111,6 +111,7 @@ houseplants-shop/
 │   └── index.html
 ├── package.json
 └── README.md
+```
 
 ---
 
@@ -138,10 +139,9 @@ The application is deployed and accessible at:
 
 ---
 
-## ✨ Author
+## Author
 
 Developed as part of the IBM Front-End React Course final project.
+
+Author: [WuKe](https://github.com/source-code-examples)  
 GitHub Repository: [houseplants-shop](https://github.com/source-code-examples/houseplants-shop)
-
-
-```
