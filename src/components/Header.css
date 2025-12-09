@@ -1,0 +1,42 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #275828;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.cart-icon {
+  font-size: 1.3rem;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  background-color: wheat;
+  color: #275828;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  margin-left: 0.3rem;
+  font-weight: bold;
+}

@@ -1,0 +1,76 @@
+/* src/pages/ProductListingPage.css */
+.section-title {
+  font-size: 3rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-intro {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.categories {
+  background-color: #f0f8f5;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.categories-title {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: #388e3c;
+}
+
+.categories-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  font-size: 1.2rem;
+}
+
+.product-listing {
+  padding: 2rem;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.plant-img {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
