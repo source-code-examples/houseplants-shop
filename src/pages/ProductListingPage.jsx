@@ -39,7 +39,7 @@ export default function ProductListingPage() {
                 disabled={isInCart(plant.id)}
                 onClick={() => dispatch(addItem(plant))}
               >
-                {isInCart(plant.id) ? "Im Warenkorb" : "Add to Cart"}
+                {isInCart(plant.id) ? "In the Shopping Cart" : "Add to Cart"}
               </button>
             </div>
           ))}
